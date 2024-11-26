@@ -23,29 +23,34 @@
 }
 
 #header_left img {
-  width: 3.125em;
-  height: 3.125em;
+  width: 2em;
+  height: 2em;
 }
 
-#input {
+#div_input {
+  padding: 0.2rem;
   display: flex;
   align-items: center;
   background-color: #eff2f5;
-  padding: 0.625em;
   margin-left: 0.625em;
   border-radius: 2em;
 }
 
-#input .material-icons {
+#div_input .material-icons {
   border: none;
   background-color: transparent;
   padding-top: 0.1875em;
 }
 
-#input input {
+#div_input input {
   border: none;
   background-color: transparent;
   outline-width: 0;
+}
+
+#header_milieu a {
+  text-decoration: none;
+  color: black;
 }
 
 #header_right {
