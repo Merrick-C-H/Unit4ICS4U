@@ -1,0 +1,73 @@
+#drapeau img {
+  width: 8em;
+  height: 4em;
+}
+
+#drapeau figcaption {
+  text-align: center;
+}
+
+#banner div {
+  display: flex;
+}
+
+#banner {
+  justify-content: space-between;
+  display: flex;
+}
+
+#banner nav {
+  /* margin-left: 50%; */
+}
+
+#banner ul {
+  display: flex;
+  list-style-type: none;
+}
+
+#banner li {
+  padding: 5px;
+}
+
+#banner a {
+  text-decoration: none;
+  color: rgb(94, 94, 94);
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+#banner li :hover {
+  background-color: rgb(177, 177, 177);
+}
+
+hr {
+  border-style: hidden;
+  height: 2px;
+  background-color: red;
+}
+
+#toronto {
+  display: flex;
+  flex-direction: column;
+}
+
+#toronto img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+#toronto figcaption {
+  font-size: small;
+  color: white;
+  border-radius: 0px 0px 10px 10px;
+  background-color: rgba(0, 0, 0, 0.288);
+  position: relative;
+  bottom: 10%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  padding-left: 1%;
+  width: 99%;
+  text-shadow: 4px 4px #000000b2;
+}
